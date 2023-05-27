@@ -1,0 +1,10 @@
+#menu-bar{
+    text-align: end;
+}
+#menu-bar li{
+    display: inline-block;
+}
+#menu-bar ul{
+    margin: 0px;
+    padding: 0px;
+}

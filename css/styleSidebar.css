@@ -1,0 +1,49 @@
+body{
+    background-color:burlywood;
+}
+
+
+#page-con{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    min-width: 450px;
+    <!ขนาดเว็ปจะไม่เล็กไปกว่า450px>
+}
+
+
+#page-head{
+    background-color: darkviolet;
+    border-radius: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+#sidebar-left, #content, #sidebar-right{
+    float: left;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+
+#sidebar-left{
+    background-color: palevioletred;
+    width: 30%;
+    color: aliceblue;
+}
+#content{
+    background-color: cornflowerblue;
+    width: 30%;
+    color: aliceblue;
+}
+#sidebar-right{
+    background-color: palevioletred;
+    width: 40%;
+    color: aliceblue;
+}
+
+#page-foot{
+    font-family: cursive;
+    text-align: end;
+    clear: left;
+}
